@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+#navbar {
+  transition: ease .4s;
+}
+.navbar-toggler {
+  color: #d933ff;
+}
+.navbar-toggler-icon {
+  color: #d933ff;
+}
+.BgColor {
+  background-color: rgba(19, 19, 19, 0.863) !important;
+}
+.navbar-brand {
+  color: #d933ff !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0 2px 5px #000;
+}
+.nav-item {
+  margin-left: 1.3rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e677ff !important;
+  text-shadow: 0 2px 5px #000;
+}
+#home {
+  background: url(../img/home.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 100vh;
+  max-height: fit-content;
+}
+#home div {
+  margin-bottom: 7rem;
+}
+#home h1 {
+  color: rgba(255, 255, 255, 0);
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  -webkit-text-stroke: 3px #d933ff;
+}
+#home h4 {
+  color: rgb(182, 182, 182);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+#home button {
+  padding: .7rem 1rem;
+  font-weight: normal;
+  color: #d933ff;
+  border: 1px solid #d933ff;
+}
+#home button:hover {
+  background-color: #da33ff8a;
+  border: 1px solid #d933ff;
+  color: #fff;
+}
+#about img {
+  width: 300px;
+}
+.card {
+  margin: 1rem;
+  overflow: hidden;
+  transition: ease .3s;
+}
+.card img {
+  transition: ease .3s;
+}
+.card:hover {
+  box-shadow: 3px 10px 15px 0px rgba(0, 0, 0, 0.37);
+}
+.card:hover img {
+  transform: scale(1.09);
+}
+.icon-sosmed a i {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem;
+  transition: ease .3s;
+}
+.icon-sosmed a i:hover {
+  color: #d933ff;
+}
+footer p {
+  background-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  #home h1 {
+    font-size: 3rem !important;
+    -webkit-text-stroke: 3px #d933ff;
+  }
+  #home h4 {
+    font-size: 1rem !important;
+  }
+  #about img {
+    width: 200px;
+  }
+  .contact-form {
+    padding: 1rem !important;
+  }
+  .cont-sos {
+    padding: 1rem !important;
+  }
+  .icon-sosmed a i {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: .5rem 1rem;
+    transition: ease .3s;
+  }
+}
